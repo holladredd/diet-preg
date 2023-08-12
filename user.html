@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DietPreg</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstraps/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstraps/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body class="container-fluid">
+    <nav   data-aos-offset="0" class="navbar navbar-expand-lg fixed-top p-0 navbar-light bg-light shadow-sm">
+        <div class="container-fluid">
+          <a data-aos="zoom-in" class="navbar-brand text-primary fw-bold fs-3" href="index.html"><img src="img/Firefly DIET-PREG-melted+ice cream in blue color 18622 (1).png" alt="" height="50" class="navbar-brand-img"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse    " id="navbarNav">
+                <ul class="navbar-nav fw-bold">
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="user.html">User Input</a>
+            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="food.html">Food Segregation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nutrients.html">Nutrients & BMI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Food Gallery</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+      </nav>
+
+
+<div id="user-form" class="card col-12 p-4 m-3 mt-5 shadow">
+<div class="card-head mt-5">
+    <h2 class="text-center fs-3 fw-bold text-dark">USER INPUT</h2>
+    <img src="img/9851984_4291560.jpg" class="card-img-top my-3" alt="" srcset="">
+</div>
+    <!-- Add user input form here -->
+    <form class="shadow m-3 p-4">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" >
+
+
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" >
+
+                    <label for="age">Gender:</label>
+                    <input type="text" id="gender" name="gender" value="Female" disabled >
+
+                    <!-- <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" >
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select> -->
+
+                    <label for="trimester">Trimester:</label>
+                    <select id="trimester" name="trimester">
+                        <option value="">Select Trimester</option>
+                        <option value="first">First Trimester</option>
+                        <option value="second">Second Trimester</option>
+                        <option value="third">Third Trimester</option>
+                    </select>
+
+                <a href="nutrients.html" type="button" class="submit">Submit</a>
+                <span>
+                    <!-- <input type="submit" value="Submit"> -->
+                    <!-- <input type="submit" value="Submit"> -->
+                </span>
+
+                
+            </a>
+        </form>
+    </div>
+
+    
+
+    <footer data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="300"
+    data-aos-offset="0" class="bg-dark py-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <h3 class=" text-light">Home</h3>
+            <ul class="list-unstyled">
+              <li><a href="home.html#userinput" class="text-decoration-none">User Input</a></li>
+              <li><a href="home.html#nutritionchoice" class="text-decoration-none">Nutrition Choice</a></li>
+              <li><a href="home.html#aboutus" class="text-decoration-none">About Us</a></li>
+
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class=" text-light">User Input</h3>
+            <ul class="list-unstyled">
+              <li><a href="user.html" class="text-decoration-none">User Input</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h3 class=" text-light">Food Segregation</h3>
+            <ul class="list-unstyled">
+              <li><a href="food.html#breakfast" class="text-decoration-none">Breakfast</a></li>
+              <li><a href="food.html#lunch" class="text-decoration-none">Lunch</a></li>
+              <li><a href="food.html#dinner" class="text-decoration-none">Dinner</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class=" text-light">Nutrient & BMI</h5>
+            <ul class="list-unstyled">
+              <li><a href="nutrients.html#bmi-calculator" class="text-decoration-none">BMI-calculator</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+<p>&copy; 2023 Pregnancy Diet Recommendation. All rights reserved.</p>
+</footer>
+    <script src="index.js"></script>
+    <script src="bootstraps/js/bootstrap.min.js"></script>
+    
+    <script src="bootstraps/js/bootstrap.js"></script>
+    
+    <script src="bootstraps/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      </script>
+</body>
+</body>
+</html>

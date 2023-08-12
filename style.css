@@ -1,0 +1,653 @@
+    /* Reset some default styles */
+    body, h1, h2, h3, p, ul, li {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        width: auto;
+        padding: 0;
+        min-height: 100vh; /* Make sure the container at least takes the full viewport height */
+    }
+    body{
+     
+        height: 800px;
+        background-image: url(img/pregnant\ 03.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        background-clip: content-box;
+        background-blend-mode: darken;
+    }
+    #about-us{
+        background-image: url(img/pregnant\ 02.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center;
+        background-clip: content-box;
+        background-blend-mode: darken;
+    }
+    #creators-div{
+        background-image: url(img/programmers.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: right;
+        background-clip: content-box;
+        background-blend-mode: darken;
+    }
+    #user-form{
+        background-image: url(img/prgnant\ 01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        background-clip: content-box;
+        background-blend-mode: darken;
+    }
+    #food-page{
+        
+        background-image: url(img/programmers.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        background-clip: content-box;
+
+    
+    }
+    #nutrient-page{
+        background-image: url(img/food\ 01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        background-clip: content-box;
+    
+    }
+    #food-gallery{
+        
+        background-image: url(img/food.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        background-clip: content-box;
+        background-blend-mode: darken;
+    
+    }
+    #nutrient-div{
+        background-image: url(img/food.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        background-clip: content-box;
+        background-blend-mode: darken;
+    
+    }
+    #berry{
+        background-image: url(img/berry\ bliss\ perfiat.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        background-clip: content-box;
+        background-blend-mode: darken;
+    
+    }
+    #avocado{
+        background-image: url(img/avocado\ toast.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        background-clip: content-box;
+        background-blend-mode: darken;
+        
+    }
+    #wholesome{
+        background-image: url(img/wholesomenight.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        background-clip: content-box;
+        background-blend-mode: darken;
+    }
+#Stuffed-bell{
+    background-image: url(img/Quinoa\ Stuffed\ Bell\ Peppers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-clip: content-box;
+    background-blend-mode: darken;
+
+}
+#Buddha{
+    background-image: url(img/Buddha\ Bowl\ with\ Roasted\ Veggies\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-clip: content-box;
+    background-blend-mode: darken;
+
+}
+#turkey{
+    background-image: url(img/Turkey\ Avocado\ Lettuce\ Wraps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-clip: content-box;
+    background-blend-mode: darken;
+
+}
+#Ratatouille{
+    background-image: url(img/Ratatouille\ with\ Garlic\ Bread.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-clip: content-box;
+    background-blend-mode: darken;
+
+}
+#quinoa-black{
+    background-image: url(img/Quinoa\ and\ Black\ Bean\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-clip: content-box;
+    background-blend-mode: darken;
+
+}
+#veggies{
+    background-image: url(img/Veggie\ Stir-Fry\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-clip: content-box;
+    background-blend-mode: darken;
+
+}
+
+    .diet{
+        text-align: center;
+    }
+    /* Header styles */
+    header {
+        width: 90%;
+        background-color: #f9f9f9;
+        padding: 5px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header h1, header h5, header p {
+        color: #333;
+    }
+    /* .navbar {
+        display: flex;
+        border-radius: 8px;
+        justify-content: space-between;
+        align-items: center;
+        color: #160101;
+        padding: 10px;
+
+    } */
+    .brand a {
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+        color: #0056b3;
+    }
+    .nav-links {
+        list-style: none;
+        display: flex;
+        color: #555;
+    }
+    .nav-links li {
+        margin-left: 20px;
+        color: #555;
+    }
+    .nav-links li a {
+        text-decoration: none;
+        color: #555;
+    } 
+    nav a {
+        margin: 0;
+        text-decoration: none;
+        color: #555;
+        padding: 5px;
+    }
+    /* Main content styles */
+    main {
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 2fr); /* Divide main into 3 equal columns */
+        grid-gap: 10px; /* Add some space between the grid items */
+        grid-row: 2; /* Place the main section in the second row */
+    }
+
+    section {
+        background-color: #f9f9f9;
+        padding: 0;
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* User Input form styles */
+
+    .user-input {
+    width: 90%;
+    margin-top: 40px;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    .user-input h2 {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #555;
+    }
+    .submit{
+        text-align: center;
+
+        padding: 5px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #fff;
+        font-size: larger;
+        width: 80px;
+        background-color: #0056b3;
+    }
+    form {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 2fr; /* Divide the form into two equal columns */
+        grid-gap: 10px;
+    }
+
+    label {
+        font-size: 16px;
+        color: #333;
+    }
+
+    input[type="number"],
+    input[type="text"],
+    select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    select {
+        cursor: pointer;
+    }
+
+    input[type="submit"] {
+        grid-column: 2;
+        width: auto;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    /* Food Segregation styles */
+    .food-segregation {
+        
+        background-image: url(img/food.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        background-clip: content-box;
+    
+        width: 100%;
+
+        margin-top: 10px;
+        grid-column: 1 / span 1; /* The food segregation section spans all 3 columns of the main grid */
+    }
+    .food-description{
+        width: auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    }
+    .food-description h3, h5{
+        text-align: center;
+    }
+
+    .food-segregation h2 {
+
+        font-size: 24px;
+        color: #555;
+    }
+
+    .food-category {
+        border-radius: 8px;
+        margin: 20px;
+        padding: 20px;
+    margin: 40px;
+    box-shadow: 0px 0px 10px  black;
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .food-category h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #333;
+        text-align: center;
+    }
+
+
+
+    .food-item img {
+        width: 150px;
+    box-shadow: 0px 0px 4px solid black;
+        display: flex;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /* Nutrients & BMI styles */
+    .nutrients-bmi {margin-top: 20px;
+
+        padding: 20px;
+        width: 90%;
+        /* Styles for Nutrients & BMI section */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #nutrients {
+        width: 100%;
+        flex: 1 1 400px; 
+        margin: 20px;
+    }
+
+    .nutrient {
+        margin-bottom: 20px;
+    }
+
+    .nutrient h3 {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .nutrient p {
+        font-size: 16px;
+        color: #555;
+
+    }
+    .bmi-calculator {
+        /* flex: 1 1 700px; */
+        padding: 10px;
+        margin: 20px;
+        width: 400px;
+    }
+
+    .bmi-calculator h3 {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .bmi-calculator p {
+        font-size: 16px;
+        color: #555;
+    }
+
+    .bmi-calculator form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .bmi-calculator label {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    .bmi-calculator input[type="number"] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .bmi-calculator input[type="submit"] {
+        width: auto;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .bmi-calculator input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    .bmi-result, .bmi-category {
+        font-size: 16px;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .bmi-category {
+        margin-bottom: 20px;
+    }
+    /* Food Gallery styles */
+    .food-gallery {
+        width: auto;
+        margin-top: 20px;
+        border: 0px 0px 4px  black;
+                
+        background-image: url(img/food\ 01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        background-clip: content-box;
+    
+    }
+
+    .food-gallery h2 {
+        font-size: 24px;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .gallery-container {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 7px;
+    }
+
+    .gallery-container img {
+        width: 100%;
+        height: 332px;
+        /* border-radius: 8px; */
+        /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    }
+
+
+
+
+    /* Footer styles */
+    footer {
+
+        text-align: center;
+        background-color: #f9f9f9;
+        padding: 20px;
+        
+    }
+
+    footer p {
+        color: #555;
+        font-size: 14px;
+
+    }
+
+    /* Landing section styles */
+    .landing {
+        width: 100%;
+        margin-top: 20px;
+        background-image: url('img/27448481_7315116.jpg');
+        background-size: cover;
+
+        background-position: center ;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #e9eef5;
+        text-align: center;
+    }
+
+    .landing-user {
+        max-width: 100%;
+        padding: 20px;
+        color: #ccc;
+    }
+
+    .landing-content {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .landing-con {
+        background-color: #010c18;
+        color: #ccc;
+        border-radius: 8px;
+        border: 4px solid white;
+    }
+
+    .landing h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .landing p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .cta-button {
+        display: inline-block;
+        padding: 15px 30px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+
+    .cta-button:hover {
+        background-color: #0056b3;
+    }
+
+    /* Responsive styles */
+
+    /* For screens smaller than 768px (e.g., mobile phones) */
+    @media (max-width: 767px) {
+        main {
+            grid-template-columns: 1fr; /* Single column layout for smaller screens */
+        }
+body{
+    height: auto;
+    background-image: url(img/8673470_3945191.jpg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-attachment: scroll;
+    background-position: right;
+    background-clip: content-box;
+}
+        .food-segregation {
+            order: 1; /* Move Food Segregation section above User Input section */
+        }
+
+        .nutrients-bmi {
+            order: 2; /* Move Nutrients & BMI section below User Input section */
+        }
+
+        .food-gallery {
+            order: 3; /* Move Food Gallery section to the bottom */
+        }
+
+        .nutrients-bmi {
+            flex-direction: column; /* Stack Nutrients & BMI content vertically */
+        }
+
+        .bmi-calculator, .nutrients {
+            margin-right: 0; /* Remove the right margin to save space */
+        }
+    }
+
+    /* For screens between 768px and 1023px (e.g., tablets) */
+    @media (min-width: 768px) and (max-width: 1023px) {
+        main {
+            grid-template-columns: 1fr 1fr; /* Two column layout for tablets */
+            grid-gap: 30px;
+        }
+
+        .food-gallery {
+            grid-column: span 2; /* Make Food Gallery section span both columns */
+        }
+
+        .nutrients-bmi {
+            flex-direction: row; /* Revert to horizontal layout for Nutrients & BMI content */
+        }
+
+        .bmi-calculator, .nutrients {
+            margin-right: 20px; /* Restore right margin for spacing between sections */
+        }
+    }
+
+    /* For screens 1024px and larger (e.g., desktops) */
+    @media (min-width: 1024px) {
+        .container {
+            padding: 40px; /* Increase container padding for larger screens */
+        }
+    }
